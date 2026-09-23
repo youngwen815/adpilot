@@ -2,9 +2,13 @@
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8" />
-    <meta name="google-site-verification" content="tRh66WKTV84w7WE3-8Js8wgY5DC7GQSMC2Bw5RyRAT8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Google Search Console 网站所有权验证（品牌验证前置条件，勿删） -->
+    <meta name="google-site-verification" content="tRh66WKTV84w7WE3-8Js8wgY5DC7GQSMC2Bw5RyRAT8" />
     <title>AdPilot — 广告数据汇总桌面工具</title>
+    <link rel="icon" type="image/png" href="./logo-120.png" />
+    <link rel="apple-touch-icon" href="./logo-120.png" />
+    <meta property="og:image" content="./logo-512.png" />
     <style>
       :root {
         --bg: #0b0b0d;
@@ -23,7 +27,9 @@
         font-size: 15px;
       }
       .wrap { max-width: 760px; margin: 0 auto; padding: 48px 24px 64px; }
-      .logo { font-size: 26px; font-weight: 700; letter-spacing: 1px; margin-bottom: 6px; }
+      .brand { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; }
+      .brand img { width: 48px; height: 48px; border-radius: 12px; display: block; }
+      .logo { font-size: 26px; font-weight: 700; letter-spacing: 1px; }
       .logo em { font-style: normal; color: var(--accent); }
       .tagline { color: var(--text2); margin-bottom: 36px; }
       h2 { font-size: 17px; margin: 30px 0 10px; color: var(--accent); }
@@ -44,7 +50,10 @@
   </head>
   <body>
     <div class="wrap">
-      <div class="logo">Ad<em>Pilot</em></div>
+      <div class="brand">
+        <img src="./logo-120.png" alt="AdPilot 徽标" />
+        <div class="logo">Ad<em>Pilot</em></div>
+      </div>
       <div class="tagline">广告数据汇总桌面工具 · Windows 应用</div>
 
       <div class="card">
